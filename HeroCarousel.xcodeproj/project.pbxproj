@@ -11,6 +11,11 @@
 		043C41D92599C007008C1E8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C41D82599C007008C1E8B /* ContentView.swift */; };
 		043C41DB2599C00B008C1E8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043C41DA2599C00B008C1E8B /* Assets.xcassets */; };
 		043C41DE2599C00B008C1E8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043C41DD2599C00B008C1E8B /* Preview Assets.xcassets */; };
+		043C41EA2599C05C008C1E8B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C41E92599C05C008C1E8B /* Home.swift */; };
+		043C41EE2599C1F0008C1E8B /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C41ED2599C1F0008C1E8B /* Card.swift */; };
+		043C41F12599C278008C1E8B /* CarouselViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C41F02599C278008C1E8B /* CarouselViewModel.swift */; };
+		043C41F42599D6A0008C1E8B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C41F32599D6A0008C1E8B /* CardView.swift */; };
+		04A5631C259AE76100A353AA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A5631B259AE76100A353AA /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		043C41DA2599C00B008C1E8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		043C41DD2599C00B008C1E8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		043C41DF2599C00B008C1E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043C41E92599C05C008C1E8B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		043C41ED2599C1F0008C1E8B /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		043C41F02599C278008C1E8B /* CarouselViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselViewModel.swift; sourceTree = "<group>"; };
+		043C41F32599D6A0008C1E8B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		04A5631B259AE76100A353AA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,9 @@
 		043C41D52599C007008C1E8B /* HeroCarousel */ = {
 			isa = PBXGroup;
 			children = (
+				043C41E82599C040008C1E8B /* ViewModel */,
+				043C41E72599C038008C1E8B /* Model */,
+				043C41E62599C02E008C1E8B /* View */,
 				043C41D62599C007008C1E8B /* HeroCarouselApp.swift */,
 				043C41D82599C007008C1E8B /* ContentView.swift */,
 				043C41DA2599C00B008C1E8B /* Assets.xcassets */,
@@ -67,6 +80,32 @@
 				043C41DD2599C00B008C1E8B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		043C41E62599C02E008C1E8B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				043C41E92599C05C008C1E8B /* Home.swift */,
+				043C41F32599D6A0008C1E8B /* CardView.swift */,
+				04A5631B259AE76100A353AA /* DetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		043C41E72599C038008C1E8B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				043C41ED2599C1F0008C1E8B /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		043C41E82599C040008C1E8B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				043C41F02599C278008C1E8B /* CarouselViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +178,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				043C41D92599C007008C1E8B /* ContentView.swift in Sources */,
+				043C41EA2599C05C008C1E8B /* Home.swift in Sources */,
 				043C41D72599C007008C1E8B /* HeroCarouselApp.swift in Sources */,
+				04A5631C259AE76100A353AA /* DetailView.swift in Sources */,
+				043C41F12599C278008C1E8B /* CarouselViewModel.swift in Sources */,
+				043C41F42599D6A0008C1E8B /* CardView.swift in Sources */,
+				043C41EE2599C1F0008C1E8B /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
