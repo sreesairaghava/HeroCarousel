@@ -27,7 +27,7 @@ struct DetailView: View {
                         .foregroundColor(.white)
                         .frame(width:250,alignment: .leading)
                         .padding()
-                        .matchedGeometryEffect(id: "Title-\(model.selectedCard.title)", in: animation)
+                        .matchedGeometryEffect(id: "Title-\(model.selectedCard.id)", in: animation)
                     Spacer(minLength: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/)
                 }
                 //Detail View content
